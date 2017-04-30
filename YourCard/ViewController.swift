@@ -30,7 +30,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         let image = info[UIImagePickerControllerOriginalImage] as? UIImage
         
         // Reduce image size b/c Google has a small limit
-        let smallerImage = image?.resized(withPercentage: 0.1)
+        let smallerImage = image?.resized(withPercentage: 0.4)
         
         print("Got Image ***" + smallerImage.debugDescription)
         let imageData:NSData = UIImagePNGRepresentation(smallerImage!)! as NSData
@@ -99,7 +99,6 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         } catch {
             print(error)
         }
-        
     }
     
 }
