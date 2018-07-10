@@ -1,5 +1,6 @@
-# YoDidi 
-Digital Implant Device Identification ("didi") card.
+# My DIDI
+A Digital Implant Device Identification ("didi") card concept prototype built at AthenaHealth MDP Hackathon 2017. 
+
 A native Swift iOS app that allows patients to easily scan in their physical IDI cards and store to Apple Wallet. 
 Uses the Google Cloud Vision API for image to text processing. 
 
